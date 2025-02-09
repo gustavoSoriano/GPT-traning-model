@@ -7,12 +7,12 @@ async function main() {
     });
 
     const response = await openai.chat.completions.create({
-        model: "ft:gpt-4o-mini-2024-07-18:personal::Aty8QjG1",
+        model: "ft:gpt-4o-mini-2024-07-18:personal::AyqD4xH4",
         temperature: 0,
         messages: [
             {
                 role: "user",
-                content: "Olá !",
+                content: "Que serviços a TechNova oferece ?",
             },
         ],
     });
